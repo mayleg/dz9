@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 public class RadioTest {
     @Test
     public void changestation1() {
-        Radio radio = new Radio();
-
-        radio.setCurrentstation(6);
+        Radio radio = new Radio(20);
+fi
+        radio.setCurrentstation(14);
 
         int expected = 6;
         int actual = radio.getCurrentstation();
