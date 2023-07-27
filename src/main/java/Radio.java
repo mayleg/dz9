@@ -4,7 +4,7 @@ public class Radio {
     private int maxStation;
 
     public Radio() {
-        maxStation = 9
+        maxStation = 9;
     }
 
     public Radio(int stationCount) {

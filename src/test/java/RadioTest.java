@@ -5,10 +5,10 @@ public class RadioTest {
     @Test
     public void changestation1() {
         Radio radio = new Radio(20);
-fi
+
         radio.setCurrentstation(14);
 
-        int expected = 6;
+        int expected = 14;
         int actual = radio.getCurrentstation();
         Assertions.assertEquals(expected, actual);
 
